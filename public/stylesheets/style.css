@@ -1,0 +1,49 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?cs=srgb&dl=applause-audience-band-196652.jpg&fm=jpg");
+  background-size: 100%; }
+
+a {
+  color: #00B7FF; }
+
+.login-field {
+  opacity: 0.95;
+  background-color: #1f2420;
+  color: #ccc;
+  padding: 20px;
+  height: 150px;
+  width: 300px;
+  top: 30%;
+  left: 40%;
+  position: absolute;
+  border-radius: 8px; }
+
+.display-field {
+  opacity: 0.95;
+  background-color: #1f2420;
+  color: #ccc;
+  padding: 20px;
+  width: 90%;
+  top: 5%;
+  left: 5%;
+  position: absolute;
+  border-radius: 15px; }
+
+.login-form {
+  padding-left: 5%; }
+
+#custom-button {
+  font-weight: bold;
+  color: #1f2420;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background: #ccc;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=style.css.map */
