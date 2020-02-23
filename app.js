@@ -9,7 +9,6 @@ var loginRouter = require('./routes/login');
 var authRouter = require('./routes/authorize')
 var redirectRouter = require('./routes/redirect')
 var successRouter = require('./routes/success')
-var topTracks = require('./routes/top_tracks')
 
 var app = express();
 
@@ -33,7 +32,6 @@ app.use('/', loginRouter);
 app.use('/authorize', authRouter)
 app.use('/redirect', redirectRouter)
 app.use('/success', successRouter)
-app.use('/top_tracks', topTracks)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
