@@ -13,12 +13,12 @@ $('.get-top-tracks').click(function(){
         success: function(response) {
             console.log("SPOTIFY RESPONSE:");
             console.log(response);
-            updateView(response);
+            updateMostPlayed(response);
         }
     })
 });
 
-function updateView(response){
+function updateMostPlayed(response){
     $('.login-field').attr("hidden", true);
     $('.display-field').attr("hidden", false);
     (response.items).forEach(item => {
@@ -30,3 +30,7 @@ function updateView(response){
         )
     });
 };
+
+function generateRecommendations(){
+    
+}
