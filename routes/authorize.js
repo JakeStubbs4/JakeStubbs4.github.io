@@ -18,7 +18,6 @@ var spotifyApi = new spotifyWebAPI({
 
 router.get("/", function (request, response) {
   var authorizeURL = spotifyApi.createAuthorizeURL(scopes, null, showDialog);
-  console.log(authorizeURL);
   response.redirect(authorizeURL);
 });
 
